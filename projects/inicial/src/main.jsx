@@ -9,7 +9,7 @@ import { App } from './assets/App.jsx';
 const root = ReactDOM.createRoot(document.getElementById('root'))
 
 root.render(
-  <App />
+  <App /> // Le decimos que nos renderice la app -> *Ver archivo App.jsx*
 )
 
 
