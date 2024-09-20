@@ -1,0 +1,57 @@
+
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #eee;
+    background-color: #1d1d1d;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    font-size: 48px;
+}
+
+.item {
+    width: 80px;
+    height: 80px;
+}
+
+.tabla {
+    display: grid;
+    grid-template-columns: repeat(2, 0fr);
+    gap: 10px;
+}
+
+.cft-interfaz{
+    display: flex;
+}
+
+.flecha{
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 500%;
+}
+
+.out{
+    display: flex;
+    margin-top: 45px;
+}
+
+
+
+
+
+.cell {
+    box-shadow: inset 2px 2px 0 0 #373737,
+      inset (-2px) (-2px) 0 0 #ffffff;
+    background-color: #8b8b8b;
+    height: 2rem;
+    width: 2rem;
+    position: relative;
+  
+    &:hover {
+      background-color: #a1a1a1;
+}}
